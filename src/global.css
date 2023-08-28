@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-exame1{
+    background-image: url(./assets/image/exames/exameExecutando.png);
+    background-position: 100%;
+}
+
+.bg-design{
+    background-image: url(./assets/image/backgrounddesign.webp);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover 50%;
+    
+}
+
+.p-accordion{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.p-accordion-header{
+    width: 100%;
+    color: #fff;
+    border-radius: 4px;
+    padding: 15px;
+    background: rgb(15,23,42);
+    background: linear-gradient(90deg, rgba(15,23,42,1) 0%, rgba(0,150,55,1) 99%); 
+    transition: all 0.3s ease-out;
+}
+
+.p-accordion-header a{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.p-toggleable-content .p-accordion-content {
+    padding: 20px 10px 20px 30px;
+    border: 1px solid #dee2e6;
+    background: #ffffff;
+    color: #495057;
+    border-top: 0;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    transition: all 0.3s ease-out;
+}
+
+.p-accordion-content ul li{
+    list-style-type: disc;
+}

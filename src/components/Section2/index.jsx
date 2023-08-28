@@ -1,0 +1,97 @@
+import Botao from "../Botao";
+
+
+import { Accordion, AccordionTab } from 'primereact/accordion';
+
+export default function Section2(){
+    return (
+        <section className="px-5 md:px-16 lg:px-40 py-10 md:py-20 gap-9 flex flex-col  items-center ">
+            <div className="flex flex-col md:flex-row-reverse gap-9 ">
+                <div className="">
+                    <h2 className="font-bold text-3xl mb-6">Processo da Tomografia Computadorizada</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum recusandae commodi quos Lorem ipsum, dolor sit amet consectetur adipisicing elit. A voluptatum numquam quia accusantium adipisci, sit laboriosam assumenda dolorem vel, laborum similique. Facere obcaecati quod reiciendis magnam dolore ipsam rerum et? suscipit saepe fuga, porro officiis laudantium, voluptas ipsa culpa error molestiae illo! Nostrum labore temporibus porro error et?</p>
+                    
+                    <div className="hidden md:block">
+                        <Botao />
+                    </div>
+                    
+                </div>
+
+                <div>
+                    <iframe className="min-w-[350px] h-[200px] md:w-[500px] md:h-[300px]  rounded" src="https://www.youtube.com/embed/hyVhyP4GIug" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                </div>
+
+                <div className="md:hidden">
+                    <Botao />
+                </div>
+            </div>
+            
+            <div className="w-full rounded">
+                <Accordion multiple activeIndex={[0]} >
+                    <AccordionTab header="Orientações especiais" >
+                        <ul className="flex flex-col gap-1">
+                            <li>
+                            Trazer exames anteriores,  se houver.
+                            </li>
+
+                            <li>
+                            Exame realizado somente com solicitação médica (cadastro do médico).
+                            </li>
+
+                            <li>
+                            Pacientes menores de 18 anos deverão vir acompanhados de um responsável legal.
+                            </li>
+
+                            <li>
+                            Este exame não é realizado em gestantes, exceto em circunstâncias especiais.
+                            </li>
+
+                            
+
+                        </ul>
+                    </AccordionTab>
+
+                    <AccordionTab header="Preparo:" >
+                        <ul className="flex flex-col gap-1">
+                            <li>
+                                Este exame requer um jejum  de 2 horas .
+                            </li>
+                        </ul>
+                    </AccordionTab>
+
+                    <AccordionTab header="Suspensão de medicamentos:" >
+                        <ul className="flex flex-col gap-1">
+                            <li>
+                                O paciente deve suspender,  o uso do medicamento metformina (Dimefor®, Glifage®, Glucoformin®, Glucovance® ou Starform®) no dia da realização do exame,  caso venha a receber contraste iodado intravenoso e retornar a sua utilização 48 horas após. ATENÇÃO: se NÃO for necessário realizar a administração deste contraste, não precisa modificar a utilização deste remédio
+                            </li>
+
+                            <li>
+                                Clientes que fazem uso dos medicamentos sildenafila (Revatio® e Viagra®), tadalafila (Cialis®) ou vardenafila (Levitra® e Vivanza®), não devem usar estes medicamentos nas 24 horas que antecedem o exame e nas 24 horas após o exame. Caso não tenha suspendido, isso não é uma contra-indicação.
+                            </li>
+
+                            <li>
+                                Aos clientes em uso de betabloqueadores (propranolol, carvedilol, atenolol, pindolol, metoprolol) ou bloqueadores do canal de cálcio do tipo diltiazem ou verapamil recomenda-se que tomem a medicação antes da vinda ao exame, pois essa medida ajuda no controle da frequência do coração.
+                            </li>
+                        </ul>
+                    </AccordionTab>
+
+                    <AccordionTab header="Pacientes alérgicos:" >
+                        <ul className="flex flex-col gap-1">
+                            <li>
+                                Pacientes que já tiveram algum tipo de reação alérgica após a aplicação do meio de contraste iodado devem entrar em contato com a central de atendimento .
+                            </li>
+
+                            <li>
+                                Pacientes que tenham alergias a outras substâncias, asma e bronquite,  podem realizar um preparo de dessensibilização (entre em contato com a central de atendimento).
+                            </li>
+
+                            <li>
+                                Pacientes com insuficiência renal, diabéticos e mieloma múltiplo, também  precisam entrar em contato.
+                            </li>
+                        </ul>
+                    </AccordionTab>
+                </Accordion>
+            </div>
+        </section>
+    )
+}
