@@ -10,6 +10,10 @@
     font-display: swap;
 }
 
+body, html{
+    overflow-x: hidden;
+}
+
 .bg-exame1{
     background-image: url(./assets/image/exames/exameExecutando.png);
     background-position: 100%;
@@ -18,9 +22,24 @@
 .bg-design{
     background-image: url(./assets/image/backgrounddesign.webp);
     background-repeat: no-repeat;
-    background-position: right center;
-    background-size: cover 50%;
-    
+    background-size: 100%;
+    background-position: center bottom;
+}
+
+
+
+@media screen and (min-width: 1023px){
+    .bg-design{
+        background-size: 45%;
+        background-position: center right;
+    }
+}
+
+@media screen and (min-width: 1400px){
+    .bg-design{
+        background-size: 40%;
+        background-position: center right;
+    }
 }
 
 .p-accordion{

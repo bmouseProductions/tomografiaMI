@@ -1,4 +1,5 @@
 import Botao from "../Botao";
+import machine from '../../assets/image/machineGreen.webp'
 
 
 import { Accordion, AccordionTab } from 'primereact/accordion';
@@ -6,11 +7,11 @@ import { Accordion, AccordionTab } from 'primereact/accordion';
 export default function Section2(){
     return (
         <section className="container mx-auto">
-            <div className="px-5 md:px-16 lg:px-40 py-10 md:py-20 gap-9 flex flex-col  items-center ">
-                <div className="flex flex-col md:flex-row-reverse gap-9 ">
-                    <div className="">
-                        <h2 className="font-bold text-3xl mb-6">Processo da Tomografia Computadorizada</h2>
-                        <p>
+            <div className="px-5 md:px-16 lg:px-24 py-10 md:py-20 gap-9 flex flex-col  items-center ">
+                <div className="flex flex-col lg:flex-row-reverse gap-9 ">
+                    <div className="lg:w-2/3 flex flex-col justify-center">
+                        <h2 className="font-bold text-4xl text-center mb-6">Processo da Tomografia Computadorizada</h2>
+                        <p className="text-center">
                             A tomografia computadorizada é um exame médico que usa radiação e computadores para criar imagens detalhadas do interior do corpo. Durante o procedimento, o paciente repousa em uma mesa que desliza para dentro de um anel chamado de scanner. O scanner gira ao redor do corpo, emitindo feixes de raios-X capturados por detectores. O computador então combina essas informações para criar imagens transversais das estruturas internas, oferecendo uma visão clara de ossos, tecidos e órgãos, dados precisos para que os especialistas da Medic Imagem elaborem diagnósticos.
                         </p>
                         
@@ -20,8 +21,8 @@ export default function Section2(){
                         
                     </div>
 
-                    <div>
-                        <iframe className="min-w-[350px] h-[200px] md:w-[500px] md:h-[300px]  rounded" src="https://www.youtube.com/embed/hyVhyP4GIug" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                    <div className="flex flex-col justify-center items-center">
+                        <img src={machine} className="rounded w-full md:max-w-[400px] lg:max-w-none" alt="" />
                     </div>
 
                     <div className="md:hidden">

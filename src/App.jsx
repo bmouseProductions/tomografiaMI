@@ -1,6 +1,6 @@
+
 import Header from './components/Header/Index.jsx'
 import Footer from './components/Footer/Index.jsx'
-import Slider from './components/swiper/Index.jsx'
 import About from './components/About/Index.jsx';
 
 import Section1 from './components/Section1/index.jsx';
