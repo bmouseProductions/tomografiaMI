@@ -11,7 +11,7 @@ export default function Section1(){
                     É um método de diagnóstico que produz múltiplas imagens de alta resolução de todas as partes do corpo, que são processadas e  podem ter  reconstruções tridimensionais muito precisas que ajudam os médicos a fazerem os diagnósticos   de forma confiável e rápida.
                 </p>
                 <p>
-                    A  TOMOGRAFIA COMPUTADORIZADA permite o diagnóstico várias patologias  além de ser também utilizada para planejar corretamente cirurgias, guiar biópsias e outros procedimentos minimamente invasivos. Pode ser necessário o uso de um meio de contraste endovenoso, à base de iodo, pra realçar os vasos, tecidos e as eventuais lesões.
+                    A  TOMOGRAFIA COMPUTADORIZADA permite o diagnóstico de várias patologias, além de ser também utilizada para planejar corretamente cirurgias, guiar biópsias e outros procedimentos minimamente invasivos. Pode ser necessário o uso de um meio de contraste endovenoso, à base de iodo, para realçar vasos, ecidos e as eventuais lesões.
                 </p>
                 <Botao />
             </div>

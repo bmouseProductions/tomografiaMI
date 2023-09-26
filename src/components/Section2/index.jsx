@@ -9,7 +9,9 @@ export default function Section2(){
             <div className="flex flex-col md:flex-row-reverse gap-9 ">
                 <div className="">
                     <h2 className="font-bold text-3xl mb-6">Processo da Tomografia Computadorizada</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum recusandae commodi quos Lorem ipsum, dolor sit amet consectetur adipisicing elit. A voluptatum numquam quia accusantium adipisci, sit laboriosam assumenda dolorem vel, laborum similique. Facere obcaecati quod reiciendis magnam dolore ipsam rerum et? suscipit saepe fuga, porro officiis laudantium, voluptas ipsa culpa error molestiae illo! Nostrum labore temporibus porro error et?</p>
+                    <p>
+                        A tomografia computadorizada é um exame médico que usa radiação e computadores para criar imagens detalhadas do interior do corpo. Durante o procedimento, o paciente repousa em uma mesa que desliza para dentro de um anel chamado de scanner. O scanner gira ao redor do corpo, emitindo feixes de raios-X capturados por detectores. O computador então combina essas informações para criar imagens transversais das estruturas internas, oferecendo uma visão clara de ossos, tecidos e órgãos, dados precisos para que os especialistas da Medic Imagem elaborem diagnósticos.
+                    </p>
                     
                     <div className="hidden md:block">
                         <Botao />

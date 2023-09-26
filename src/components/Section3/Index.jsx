@@ -7,7 +7,9 @@ export default function Section3 () {
             <div className="px-5 md:px-16 lg:px-40 pt-10 md:pt-0 gap-9 flex flex-col md:flex-row items-center bg-design">
                 <div className="md:w-[90%]">
                     <h2 className="font-bold text-3xl mb-6">Sua saúde merece o melhor tratamento</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi saepe minima totam nemo, expedita eius, nam aliquam neque consequuntur magni ducimus beatae alias corrupti velit voluptas hic perferendis provident rem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum libero deserunt atque! Consectetur repellendus iusto sapiente libero magnam fugiat at ab doloremque minus praesentium sed eum eos est, ipsum accusamus!</p>
+                    <p>
+                        Na Medic Imagem Diagnósticos, você realiza a sua tomografia computadorizada em aparelhos de última tecnologia, com profissionais qualificados e, o melhor de tudo, com facilidade na hora de agendar o seu exame. Agende o seu horário com a clínica que é referência na região há mais de 20 anos e cuide da sua saúde, ela merece o melhor tratamento.
+                    </p>
                     <Botao />
                 </div>
 
